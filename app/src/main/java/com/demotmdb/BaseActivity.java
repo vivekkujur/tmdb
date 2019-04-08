@@ -1,5 +1,6 @@
 package com.demotmdb;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -15,6 +16,7 @@ import retrofit2.Call;
 import retrofit2.Retrofit;
 
 
+@SuppressLint("Registered")
 public class BaseActivity extends AppCompatActivity {
 
     public Activity mContext;
